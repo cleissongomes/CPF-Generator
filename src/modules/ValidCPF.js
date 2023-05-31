@@ -1,4 +1,4 @@
-class ValidCPF {
+export default class ValidCPF {
     constructor(cpfSent) {
       Object.defineProperty(this, 'cpfClean', {
         writable: false,
@@ -42,3 +42,5 @@ class ValidCPF {
       return this.newCPF === this.cpfClean;
     }
   }
+
+
